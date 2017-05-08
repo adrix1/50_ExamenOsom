@@ -1,0 +1,208 @@
+/********************
+ * CÓDIGO INDEX *
+ ********************/
+
+.container-fluid {
+  margin: 0 !important;
+  padding: 0 !important;	
+}
+.row, .col {
+  margin-left: 0;
+  margin-right: 0;
+}
+a {
+  text-decoration: none !important;
+  font-size: 1em;
+  color: white !important; 
+}
+.navbar, navbar-default {
+  background-color: black;
+  color: white !important;
+  padding-bottom: 2%;
+  margin-bottom: 0%;
+  padding-top: 2%;  
+  font-size: 14.5px;
+}
+.nav>li>a>img { 
+  margin-top: -15px;
+}
+.navbar-brand {
+  padding: 0 !important;    
+}
+.navbar-right {
+  float: right!important;
+  margin-right: 0 !important;
+}
+#despegable {
+  margin-top: 47px;    
+}
+.btn {
+  padding: 0 !important;    
+}
+.btn-default {
+   color: black;
+   background-color: #fff;
+   border-color: white !important;
+}
+.open>.dropdown-menu {
+  left: 95px;
+}
+#look, #comunidad {
+  background-color: #fafafa;
+}
+#look {
+  margin-top: 55px;
+  margin-bottom: 50px;    
+}
+.looks {
+  width: 100px;
+  height: 70px;      
+}
+.playeras {
+  top: 3px;    
+}
+#collares {
+  top: 5px;    
+}
+.lentes {
+  top: 15px;    
+}
+#comunidad {
+  margin-top: 30px;    
+}
+#comunidades {
+  margin-top: 50px;
+  margin-bottom: 15px;  
+}
+#comunidades1 { 
+  margin-bottom: 30px;  
+}
+footer {
+  background-color: black;
+  color: white;
+  height: 7em;
+  padding-top: 2%;
+  font-size: 12px; 
+}
+#love {
+  margin-top: 10px;    
+}
+
+/*********************************
+ * CÓDIGO BUSCAR CAMBIOS DE LOOK *
+ *********************************/
+/*Hover imagenes*/
+
+.imagenCase {
+  padding: 0% !important;
+  margin: 1%;
+  width: 31%;
+  height: 345px!important;
+}
+#caseshare1, #caseshare2, #caseshare3, #caseshare4, #caseshare5, #caseshare6, #caseshare7, #caseshare8, #caseshare9, #caseshare10, #caseshare11, #caseshare12, #modelo {
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;    
+}
+#caseshare1 {
+  background-image: url("../imagenes/primeraimagen.jpg");
+}
+#caseshare2 {
+  background-image: url("../imagenes/segundaimagen.jpg"); 
+}
+#caseshare3 {
+  background-image: url("../imagenes/terceraimagen.jpg"); 
+}
+#caseshare4 {
+  background-image: url("../imagenes/cuartaimagen.jpg"); 
+}
+#caseshare5 {
+  background-image: url("../imagenes/quintaimagen.jpg"); 
+}
+#caseshare6 {
+  background-image: url("../imagenes/sextaimagen.jpg"); 
+}
+#caseshare7 {
+  background-image: url("../imagenes/septimaimagen.jpg");
+}
+#caseshare8 {
+  background-image: url("../imagenes/octavaimagen.jpg"); 
+}
+#caseshare9 {
+  background-image: url("../imagenes/novenaimagen.jpg"); 
+}
+#caseshare10 {
+  background-image: url("../imagenes/decimaimagen.jpg"); 
+}
+#caseshare11 {
+  background-image: url("../imagenes/onceavaimagen.jpg"); 
+}
+#caseshare12 {
+	background-image: url("../imagenes/doceavaimagen.jpg");	
+}
+#caseshare1:hover .base, #caseshare2:hover .base, #caseshare3:hover .base, #caseshare4:hover .base, #caseshare5:hover .base, #caseshare6:hover .base, #caseshare7:hover .base, #caseshare8:hover .base, #caseshare9:hover .base, #caseshare10:hover .base, #caseshare11:hover .base, #caseshare12:hover .base, #modelo:hover .base1 {
+  opacity: 1;
+}
+.base, .base1 {  
+  background-color: rgba(0, 0, 000, 0.3); 
+  opacity: 0;
+}
+.base {
+  height: 345px!important;  
+}
+.base1 {
+  height: 750px!important;  
+}
+.vermas {
+  padding-top: 40%;
+  color: white;  
+  font-size: 24px;
+  text-align: center;    
+}
+.vermas1 {
+  background-color: rgba(0, 0, 000, 0.3);	
+  color: white !important;	
+  padding: 1em !important;
+  border-radius: 5%;
+  text-decoration: none;  
+  font-size: 14px;	
+}
+#modelo {
+  background-image: url("../imagenes/fondomobile.jpg");  
+  height: 750px;
+  color: black !important;
+}
+.media-body, .media-left, .media-right {
+  vertical-align: middle !important;
+}
+/* Termina código Hover imagenes*/
+
+/********************
+ * CÓDIGO CSS MODAL *
+ ********************/
+/*Modal estilos*/
+
+.btn-enviar1{
+  background-color: black;
+  color: white;
+}
+.modal-content{
+  border: 3px solid #21ABB5;
+}
+.modal-header {
+  border: none !important;	
+}
+#modelos {
+  background-image: url(../imagenes/fondo.jpg);
+  height: 750px;      
+}
+
+/*Termina código para modal*/
+@media (min-width: 768px) {
+  .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+      margin-right: 60px !important;
+   }
+}
+
+/*Termina código index*/
